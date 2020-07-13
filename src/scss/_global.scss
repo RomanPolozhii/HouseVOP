@@ -1,0 +1,93 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  position: relative;
+  overflow-x: hidden;
+}
+body {
+  font-family: "Raleway";
+  font-weight: normal;
+  font-size: 16px;
+  color: white;
+  background: #242b33;
+}
+
+ul,
+ol,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+button:focus,
+input:focus {
+  outline: transparent;
+}
+
+.ibg {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.ibg img {
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.container {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.title {
+  font-family: "Playfair";
+  font-weight: 700;
+  font-size: 36px;
+  color: $gold;
+}
+
+.bg__text::before {
+  position: absolute;
+  z-index: 0;
+  font-size: 400px;
+  font-family: "Playfair";
+  font-weight: 700;
+  color: white;
+  opacity: 0.02;
+  overflow-y: hidden;
+}

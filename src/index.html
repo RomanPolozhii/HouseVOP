@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  @@include('components/_head.html')
+
+  <body>
+    @@include('components/_header.html')
+    <!-- WRITE CODE HERE -->
+    <section class="first-screen">
+      <div class="first-screen__bg ibg">
+        <img src="images/first-bg.jpg" alt="" />
+      </div>
+      <div class="first-screen__wrapper">
+        <div class="first-screen__title">
+          Жилой комплекс <br />
+          в историческом центре
+        </div>
+        <div class="first-screen__mouse"></div>
+        <div class="first-screen__contact">
+          <a class=".first-screen__link" href="#">
+            Наб. реки Фонтанки 10-15<svg class="map">
+              <use xlink:href="#map"></use>
+            </svg>
+          </a>
+          <a class=".first-screen__link" href="tel:88121234567">
+            8 (812) 123-45-67
+            <svg class="phone">
+              <use xlink:href="#phone"></use>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="infrastructure">
+      <div class="container">
+        <div class="infrastructure__inner bg__text">
+          <div class="infrastructure__item">
+            <img
+              class="infrastructure__img"
+              src="images/infrastructure-1.png"
+              alt=""
+            />
+            <div class="infrastructure__text">
+              Рядом исторические парки и скверы
+            </div>
+          </div>
+          <div class="infrastructure__item">
+            <img
+              class="infrastructure__img"
+              src="images/infrastructure-2.png"
+            />
+            <div class="infrastructure__text">
+              Полностью обустроенный
+            </div>
+          </div>
+          <div class="infrastructure__item">
+            <img
+              class="infrastructure__img"
+              src="images/infrastructure-3.png"
+            />
+            <div class="infrastructure__text">10 фонтанов на территории</div>
+          </div>
+          <div class="infrastructure__item">
+            <img
+              class="infrastructure__img"
+              src="images/infrastructure-4.png"
+              alt=""
+            />
+            <div class="infrastructure__text">6 км <br />велодорожек</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="apartments">
+      <div class="container">
+        <div class="apartments__title title">Наши квартиры</div>
+        <div class="apartments__inner bg__text">
+          <div class="apartments__item">
+            <a href="#"
+              ><div class="apartments__img ibg">
+                <img src="images/apartments-1.jpg" alt="" /></div
+            ></a>
+            <div class="apartments__text">Лофт — 3 этажа</div>
+          </div>
+          <div class="apartments__item">
+            <a href="#"
+              ><div class="apartments__img ibg">
+                <img src="images/apartments-2.jpg" alt="" /></div
+            ></a>
+            <div class="apartments__text">Лофт — 2 этажа</div>
+          </div>
+          <div class="apartments__item">
+            <a href="#"
+              ><div class="apartments__img ibg">
+                <img src="images/apartments-3.jpg" alt="" /></div
+            ></a>
+            <div class="apartments__text">Лофт — 3 этажа</div>
+          </div>
+          <div class="apartments__item">
+            <a href="#"
+              ><div class="apartments__img ibg">
+                <img src="images/apartments-4.jpg" alt="" /></div
+            ></a>
+            <div class="apartments__text">Лофт — 2 этажа</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="look">
+      <div class="look-bg ibg">
+        <img src="images/look-bg.jpg" alt="" />
+      </div>
+      <div class="look__wrapper">
+        <div class="container">
+          <div class="look__inner">
+            <div class="look__item">
+              <div class="look__title title">Хотите посмотреть?</div>
+              <div class="look__subtitle">
+                <p>
+                  Lorem Ipsum - это текст-"рыба", часто используемый в печати и
+                  вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для
+                  текстов на латинице с начала XVI века. В то время некий
+                  безымянный печатник создал большую коллекцию размеров и форм
+                  шрифтов, используя Lorem Ipsum для распечатки образцов.
+                </p>
+              </div>
+            </div>
+            <div class="look__item">
+              <form>
+                <div class="look__input-inner">
+                  <input type="text" placeholder="Ваше имя"  required/>
+                  <input type="text" placeholder="Ваш телефон" required />
+                </div>
+                <div class="look__form-inner">
+                  <div class="look__form-text">
+                    Мы никому не передаем ваши данные. И не сохраняем ваш номер
+                    в базу.
+                  </div>
+                  <button type="submit">Посмотреть район</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="video">
+      <div class="video__block bg__text">
+        <div class="video__img">
+          <img src="images/video.jpg" alt="">
+        </div>
+        <a data-fancybox href="https://www.youtube.com/watch?v=_sI_Ps7JSEk"><span class="video__btn">
+        <svg class="video-btn">
+        <use xlink:href="#video-btn"></use>
+        </svg></a>
+        </span>
+      </div>
+    </section>
+    <section class="location">
+      <div class="container">
+        <div class="location__title title">
+          Район на карте
+        </div>
+        <div class="location__box bg__text">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d577336.7636337742!2d36.82513433585277!3d55.5807481000207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54afc73d4b0c9%3A0x3d44d6cc5757cf4c!2z0JzQvtGB0LrQstCwLCDQoNC-0YHRgdC40Y8!5e0!3m2!1sru!2sua!4v1594677451225!5m2!1sru!2sua" width="1110" height="358" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+      </div>
+    </section>
+    <section class="questions">
+      <div class="container">
+        <div class="questions__title title">Есть вопросы?</div>
+        <div class="questions__form">
+          <form>
+            <div class="questions__text">
+              Мы никому не передаем ваши данные.
+              И не сохраняем ваш номер в базу.
+            </div>
+            <input type="text" placeholder="Ваше имя" required>
+            <input type="text" placeholder="Ваш телефон" required>
+            <button type="submit">Посмотреть район</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- STOP WRITE CODE -->
+    @@include('components/_footer.html') @@include('components/_scripts.html')
+  </body>
+</html>
